@@ -1,0 +1,4 @@
+[0915/222204.582:ERROR:process_reader_win.cc(142)] SuspendThread: Accès refusé. (0x5)
+[0915/222204.588:ERROR:exception_snapshot_win.cc(87)] thread ID 6948 not found in process
+[0915/222204.591:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0915/222204.591:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentative d’accès à un processus en cours d’arrêt.  (0xc000010a)

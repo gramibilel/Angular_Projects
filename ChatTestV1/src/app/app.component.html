@@ -1,0 +1,8 @@
+<h1>Hello socket</h1>
+
+<div *ngFor="let message of messages">
+    {{message}}
+</div>
+
+<input [(ngModel)]="message" (keyup)="$event.keyCode == 13 && sendMessage()" />
+<button (click)="sendMessage()">Send</button>
